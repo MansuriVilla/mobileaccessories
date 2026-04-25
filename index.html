@@ -6,24 +6,35 @@
     <title>Almeria mobile</title>
     <link rel="stylesheet" preload href="styles/style.css" />
     <link rel="stylesheet" preload href="styles/responsive.css" />
-    <!-- Horizon Slider CSS -->
+    <link
+      rel="shortcut icon"
+      href="./assets/almeria-mobile-fav-icon.png"
+      type="image/x-icon"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/mansurivilla/horizonslider/prod/css/HorizonSlider.min.css"
     />
-    <!-- GSAP (required by HorizonSlider) -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 
     <meta property="og:title" content="Almeria mobile" />
     <meta property="og:description" content="Almeria mobile" />
-    <meta property="og:image" content="images/logo.png" />
-    <meta property="og:url" content="https://cloudbuzz.com" />
+    <meta
+      property="og:image"
+      content="./assets/almeria-mobile-link-poster.png"
+    />
+    <meta property="og:url" content="https://almeriamobile.com" />
     <meta property="og:type" content="website" />
 
     <meta name="twitter:title" content="Almeria mobile" />
     <meta name="twitter:description" content="Almeria mobile" />
-    <meta name="twitter:image" content="images/logo.png" />
-    <meta name="twitter:url" content="https://cloudbuzz.com" />
+    <meta
+      name="twitter:image"
+      content="./assets/almeria-mobile-link-poster.png"
+    />
+    <meta name="twitter:url" content="https://almeriamobile.com" />
     <meta name="twitter:card" content="summary_large_image" />
     <script src="scripts/core.js" defer></script>
   </head>
@@ -58,13 +69,23 @@
           <span></span>
         </button>
         <a href="/" class="header_left logo">
-          <img
-            src="https://cloudbuzz.in/cdn/shop/files/t97k980-9.png?v=1708241223&width=280"
-            alt="Logo"
-            height="200"
-            width="400"
-            decoding="async"
-          />
+          <picture>
+            <source
+              srcset="./assets/almeria-mobile-wordmark.png"
+              media="(min-width: 992px)"
+            />
+            <source
+              srcset="./assets/almeria-mobile-wordmark-icon.png"
+              media="(max-width: 991px)"
+            />
+            <img
+              src="./assets/almeria-mobile-wordmark.png"
+              alt="Logo"
+              height="200"
+              width="400"
+              decoding="async"
+            />
+          </picture>
         </a>
         <nav class="header_center main_navigation site_flex">
           <button class="nav_close" aria-label="Close menu">
@@ -722,9 +743,10 @@
           <div class="site_flex site_container">
             <div class="footer_bottom_left site_flex gap_sm align_center">
               <img
-                src="https://cloudbuzz.in/cdn/shop/files/t97k980-9.png?v=1708241223&width=280"
+                src="./assets/almeria-mobile-wordmark-icon.png"
                 alt="Logo"
                 height="50"
+                ``
                 width="80"
               />
               <p>&copy; 2026 Almeria mobile. All rights reserved.</p>

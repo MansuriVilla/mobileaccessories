@@ -716,6 +716,8 @@ h4 {
 /* Gallery */
 .pdp_gallery {
   gap: var(--gap-xs);
+  position: sticky;
+  top: 120px;
 }
 .pdp_thumbnails {
   gap: var(--gap-min);
@@ -1219,7 +1221,9 @@ h4 {
 .hero_slide_content {
   position: absolute;
   inset: 0;
-  text-align: center;
+  text-align: left;
+  justify-content: center;
+  align-items: flex-start;
   padding: var(--pad-hero);
   gap: var(--gap-xs);
   color: var(--color-secondary);

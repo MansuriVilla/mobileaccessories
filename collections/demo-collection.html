@@ -46,7 +46,7 @@
           <span class="announce_dot">•</span>
           <span>No Lot System</span>
           <span class="announce_dot">•</span>
-          <span>Free Shipping on orders over ₹500</span>
+          <span>Free Shipping on orders over ₹2000</span>
           <span class="announce_dot">•</span>
           <span>Wholesale Rates</span>
           <span class="announce_dot">•</span>
@@ -54,7 +54,7 @@
           <span class="announce_dot">•</span>
           <span>No Lot System</span>
           <span class="announce_dot">•</span>
-          <span>Free Shipping on orders over ₹500</span>
+          <span>Free Shipping on orders over ₹2000</span>
           <span class="announce_dot">•</span>
         </div>
       </div>
@@ -66,7 +66,7 @@
           <span></span>
           <span></span>
         </button>
-        <a href="../index.html" class="header_left logo">
+        <a href="/" class="header_left logo">
           <picture>
             <source
               srcset="../assets/almeria-mobile-wordmark.png"
@@ -119,19 +119,87 @@
               <a href="../index.html">Home</a>
             </li>
             <li class="header_navigation--item">
-              <a href="demo-collection.html">Mobile Cases</a>
+              <a href="../collections/demo-collection.html">Neck Bands</a>
             </li>
             <li class="header_navigation--item">
-              <a href="demo-collection.html">Phone Charms</a>
+              <a href="../collections/demo-collection.html">Air Pods</a>
             </li>
-            <li class="header_navigation--item">
-              <a href="demo-collection.html">Tempered Glass</a>
+            <li class="header_navigation--item navigation_dropdown">
+              <a href="javascript:void(0)">
+                Accessories
+                <span class="navigation_dropdown--icon">
+                  <img
+                    src="../assets/dropdown-icon.png"
+                    alt=""
+                    width="12"
+                    height="12"
+                  />
+                </span>
+              </a>
+              <ul class="navigation_dropdown--items">
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html">Cable</a>
+                </li>
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html">Charger</a>
+                </li>
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html">Speaker</a>
+                </li>
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html">Mic</a>
+                </li>
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html"
+                    >Car Bluetooth</a
+                  >
+                </li>
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html">Car Charger</a>
+                </li>
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html">Headphones</a>
+                </li>
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html">Power Bank</a>
+                </li>
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html">Hands Free</a>
+                </li>
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html">Cover</a>
+                </li>
+              </ul>
             </li>
-            <li class="header_navigation--item">
-              <a href="demo-collection.html">Additional Accessories</a>
-            </li>
-            <li class="header_navigation--item">
-              <a href="demo-collection.html">Collections</a>
+            <li class="header_navigation--item navigation_dropdown">
+              <a href="javascript:void(0)"
+                >Tempered Glass
+                <span class="navigation_dropdown--icon">
+                  <img
+                    src="../assets/dropdown-icon.png"
+                    alt=""
+                    width="12"
+                    height="12"
+                  />
+                </span>
+              </a>
+              <ul class="navigation_dropdown--items">
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html"
+                    >Tempered Glass 3D</a
+                  >
+                </li>
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html"
+                    >Tempered Glass Matte</a
+                  >
+                </li>
+                <li class="navigation_dropdown--item">
+                  <a href="../collections/demo-collection.html"
+                    >Tempered Glass Glossy</a
+                  >
+                </li>
+              </ul>
             </li>
             <li class="header_navigation--item">
               <a href="../pages/about-us.html">About Us</a>
@@ -169,10 +237,12 @@
               height="20"
               width="20"
             />
+            <span class="cart_count" style="display: none">0</span>
           </button>
         </div>
       </div>
 
+      <!-- Search Modal -->
       <div
         class="search_modal"
         role="dialog"
@@ -235,12 +305,14 @@
             <div class="cart_empty">
               <img src="../assets/cart-icon.png" alt="" />
               <p>Your cart is empty</p>
-              <a href="demo-collection.html" class="btn btn_primary"
+              <a
+                href="../collections/demo-collection.html"
+                class="btn btn_primary"
                 >Start Shopping</a
               >
             </div>
           </div>
-          <div class="cart_footer" style="display: none">
+          <div class="cart_footer site_flex--column">
             <a href="#" class="btn btn_primary">Checkout</a>
           </div>
         </div>
@@ -415,16 +487,32 @@
             <h4 class="footer_col_title">Quick Links</h4>
             <ul class="footer_col_items site_flex site_flex--column gap_xs">
               <li class="footer_col_item">
-                <a href="#" class="footer_col_link">Products</a>
+                <a
+                  href="../collections/demo-collection.html"
+                  class="footer_col_link"
+                  >Neck Bands</a
+                >
               </li>
               <li class="footer_col_item">
-                <a href="#" class="footer_col_link">Collections</a>
+                <a
+                  href="../collections/demo-collection.html"
+                  class="footer_col_link"
+                  >Air Pods</a
+                >
               </li>
               <li class="footer_col_item">
-                <a href="#" class="footer_col_link">Best Sellers</a>
+                <a
+                  href="../collections/demo-collection.html"
+                  class="footer_col_link"
+                  >Accessories</a
+                >
               </li>
               <li class="footer_col_item">
-                <a href="#" class="footer_col_link">New Arrivals</a>
+                <a
+                  href="../collections/demo-collection.html"
+                  class="footer_col_link"
+                  >Tempered Glass</a
+                >
               </li>
             </ul>
           </div>
@@ -448,13 +536,13 @@
                   >Privacy Policy</a
                 >
               </li>
-              <li class="footer_col_item">
+              <!-- <li class="footer_col_item">
                 <a
                   href="../pages/refund-and-return-policy.html"
                   class="footer_col_link"
                   >Refund and Return Policy</a
                 >
-              </li>
+              </li> -->
             </ul>
           </div>
           <div
@@ -463,14 +551,19 @@
             <h4 class="footer_col_title">Contact Us</h4>
             <ul class="footer_col_items site_flex site_flex--column gap_xs">
               <li class="footer_col_item">
-                <a href="#" class="footer_col_link">Address</a>
+                <p class="contact_details_text footer_col_link">
+                  Shop No. 09, Near Rose Tower, Opp, Nandan Socity
+                  4<sup>th</sup>gate, Shahpur, Ahmedabad 380001.
+                </p>
               </li>
               <li class="footer_col_item">
-                <a href="tel:+923123456789" class="footer_col_link">Phone</a>
+                <a href="tel:+923123456789" class="footer_col_link"
+                  >+91 9876543210</a
+                >
               </li>
               <li class="footer_col_item">
                 <a href="mailto:[EMAIL_ADDRESS]" class="footer_col_link"
-                  >Email</a
+                  >Email Here</a
                 >
               </li>
             </ul>
@@ -478,11 +571,12 @@
         </div>
         <div class="footer_bottom">
           <div class="site_flex site_container">
-            <div class="footer_bottom_left site_flex gap_sm align_center">
+            <div class="footer_bottom_left site_flex align_center">
               <img
                 src="../assets/almeria-mobile-wordmark-icon.png"
                 alt="Logo"
                 height="50"
+                ``
                 width="80"
               />
               <p>&copy; 2026 Almeria mobile. All rights reserved.</p>
@@ -491,13 +585,24 @@
               <p>Follow us</p>
               <ul class="footer_social_links site_flex gap_sm">
                 <li class="footer_social_link">
-                  <a href="#" class="footer_social_link">Facebook</a>
+                  <a href="#" class="footer_social_link">
+                    <img
+                      src="../assets/social-icon-fb.svg"
+                      alt="Facebook"
+                      width="24"
+                      height="24"
+                    />
+                  </a>
                 </li>
                 <li class="footer_social_link">
-                  <a href="#" class="footer_social_link">Instagram</a>
-                </li>
-                <li class="footer_social_link">
-                  <a href="#" class="footer_social_link">Twitter</a>
+                  <a href="#" class="footer_social_link">
+                    <img
+                      src="../assets/social-icon-insta.svg"
+                      alt="Instagram"
+                      width="24"
+                      height="24"
+                    />
+                  </a>
                 </li>
               </ul>
             </div>

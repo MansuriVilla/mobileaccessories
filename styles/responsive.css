@@ -5,6 +5,7 @@
 
   .pdp_gallery {
     flex-direction: column-reverse;
+    position: inherit;
   }
   .pdp_thumbnails {
     flex-direction: row;
